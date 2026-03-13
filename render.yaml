@@ -3,6 +3,4 @@ services:
     name: hiringsystem
     env: docker
     plan: free
-    branch: main
-    buildCommand: ""
-    startCommand: ""
+    autoDeploy: true
